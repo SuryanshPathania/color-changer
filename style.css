@@ -1,0 +1,53 @@
+/* Reset margin and padding for the entire page */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+/* Centering and styling for the main container */
+.canvas {
+  margin: 100px auto;
+  width: 80%;
+  max-width: 1200px;
+  text-align: center;
+}
+
+/* Button styling */
+.button {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  display: inline-block;
+  margin: 10px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Hover effect for better visual feedback */
+.button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Background colors for each button */
+#grey {
+  background-color: grey;
+}
+
+#white {
+  background-color: white;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#yellow {
+  background-color: yellow;
+}
